@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/static/youtube.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style.css')}}">
+    <title>YourTube</title>
+</head>
+<body>
+    <nav>
+        <img src="/static/youtube.png" alt="" id="icon">
+        <h3>YourTube</h3>
+    </nav>
+    <hr>
+    <h1>Greetings, User</h1>
+    <p id="steps">Steps to download YouTube video : <br>1. Copy the video link from YouTube<br>2. Paste the copied link in the input field<br>3. Click on the download button<br>Enjoy :) 
+    </p>
+    <div id="container">
+        <div id="input_box">
+            <h3 id="heading">YOUTUBE VIDEO DOWNLOADER</h3><br>
+            <form method="POST" action="/">
+                <div id="url_box">
+                    <p id="url_label">Enter URL : </p>
+                    <input type="text" name="url" id="url">
+                </div>
+                <div id="format_box">
+                    <p id="choose_format">Choose Download Format : </p>
+                    <span class="box">Video<input type="checkbox" value="1" name="format"></span>
+                    <span class="box">Audio<input type="checkbox" value="2" name="format"></span>
+                </div>
+                <button id="enter">ENTER</button> 
+            </form>
+        </div>
+    </div>
+</body>
+</html>

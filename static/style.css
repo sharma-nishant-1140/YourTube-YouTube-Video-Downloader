@@ -1,0 +1,131 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: #121212;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+#icon{
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+}
+
+hr{
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+h1{
+    margin-left: 50px;
+    margin-top: 10px;
+    color: white;
+}
+
+#steps{
+    margin-left: 50px;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #121212;
+    height: 100%;
+    width: 100%;
+}
+
+#input_box{
+    text-align: center;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius: 30px;
+    height: 50%;
+    width: 60%;
+    transition: 0.3s;
+}
+
+#input_box:hover{
+    box-shadow: 0 4px 8px 0 rgba(185, 185, 185, 0.2), 0 6px 20px 0 rgba(224, 223, 223, 0.19);
+    transition: 0.3s;
+}
+
+#heading{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-bottom: 40px;
+}
+
+#url_box{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#url_label{
+    padding: 10px;
+}
+
+#url{
+    margin: 17px;
+    width: 400px;
+    height: 30px;
+}
+
+#enter{
+    text-align: center;
+    background: rgb(253, 77, 77);
+    color: white;
+    height: 50px;
+    width: 150px;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+#enter:hover{
+    box-shadow: 0 4px 8px 0 rgba(185, 185, 185, 0.2), 0 6px 20px 0 rgba(224, 223, 223, 0.19);
+}
+
+#format_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#choose_format{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.box{
+    border: 1px solid cyan;
+    border-radius: 15px;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.box:hover{
+    box-shadow: 0 4px 8px 0 rgba(57, 162, 189, 0.2), 0 6px 20px 0 rgba(46, 187, 253, 0.19);
+}
