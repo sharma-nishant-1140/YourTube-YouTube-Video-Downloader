@@ -1,5 +1,4 @@
 from pytube import YouTube
-import os
 
 def downloader(input_url, download_format):
     link = YouTube(input_url)
